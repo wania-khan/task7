@@ -10,13 +10,15 @@
   outline: solid 1px red;
 }
 .container-header{
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(175, 202, 207, 0.5) 100%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(175, 202, 207, 0.5) 100%);
 }
 .header-menu {
   display: flex;
-  max-width: 858px;
+  max-width: 1184px;
   margin: auto;
-  justify-content: space-around; 
+  justify-content: space-between; 
+  padding-left: 128px;
+  padding-right: 50px;
 }
 .menu-bar {
   font-family: Poppins;
@@ -26,18 +28,18 @@
   text-align: left;
   color: #22252b;
   cursor: pointer;
-  white-space: nowrap; 
+  justify-content: space-between; 
+
 }
 .navbar-logo,
 .navbar-menu,
 .navbar-signup {
-  flex: 1;
-  display: flex;
   align-items: center; 
 }
 .navbar-signup {
   justify-content: flex-end; 
   font-family: 'Poppins-Bold';
+  gap: 3px;
 }
 .navbar-signup .button-createAcc {
   font-family: 'Poppins-Bold';
@@ -57,11 +59,11 @@
 }
 .hero-section{
   display: flex;
-
 }
 .content{
+  padding-top: 100px;
   padding-left: 128px;
-  padding-right: 20px;
+  padding-right: 60px;
   gap: 0px;
   text-align: left;
   width: 50%;
@@ -76,6 +78,8 @@
 }
 .content-p{
   margin-top: 0;
+  padding-right: 10px;
+  text-align: left;
   color: #754BC9;
   font-family: 'Poppins';
   font-size: 21.5px;
@@ -92,11 +96,13 @@ cursor: pointer;
 }
 .image{
   width: 50%;
-  padding: 60px;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  margin-right: 0;
   align-items: center;
 }
 .img-body{
   margin: 0 auto;
-   width: 500px;
-   height: 510px;
+   width: 570px;
+   height: 530px;
 }

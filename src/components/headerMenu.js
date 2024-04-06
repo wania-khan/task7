@@ -7,7 +7,6 @@ function headerMenu(){
     <div className='header-menu'>
     <div className='navbar-logo'>
       <img src={navlogo} alt='erro' className='navlogo'></img>
-      
     </div>
     <div className='navbar-menu'>
         <span className='menu-bar'>Home&nbsp;&nbsp;&nbsp;&nbsp;Company <span className='gt'>&gt;</span>&nbsp;&nbsp;&nbsp;
