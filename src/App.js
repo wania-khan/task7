@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import HeaderMenu from './components/headerMenu.js';
+import HeroSection from'./components/heroSection.js';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
     <div className='container-header'>
       <br></br>
     <HeaderMenu />
+    <HeroSection />
     </div>
     </div>
     </>
