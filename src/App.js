@@ -4,7 +4,8 @@ import HeaderMenu from './components/headerMenu.js';
 import HeroSection from'./components/heroSection.js';
 import HeroMission from './components/heroMission.js';
 import SectionedTemplate from './components/sectionedTemplate.js';
-
+import UpperSection from './components/upperSection.js';
+import LowerSection from './'
 function App() {
   return (
     <>
@@ -19,6 +20,10 @@ function App() {
     <div className='block-section'>
      <SectionedTemplate />
     </div>
+    <div className='upper-section'>
+     <UpperSection />
+    </div>
+    <LowerSection />
     </>
   );
 }
