@@ -5,7 +5,7 @@ import HeroSection from'./components/heroSection.js';
 import HeroMission from './components/heroMission.js';
 import SectionedTemplate from './components/sectionedTemplate.js';
 import UpperSection from './components/upperSection.js';
-import LowerSection from './'
+import LowerSection from './components/lowerSection.js';
 function App() {
   return (
     <>
