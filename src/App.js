@@ -6,6 +6,8 @@ import HeroMission from './components/heroMission.js';
 import SectionedTemplate from './components/sectionedTemplate.js';
 import UpperSection from './components/upperSection.js';
 import LowerSection from './components/lowerSection.js';
+import Footer from './components/footer.js';
+
 function App() {
   return (
     <>
@@ -24,6 +26,9 @@ function App() {
      <UpperSection />
     </div>
     <LowerSection />
+    <div className='footer-section'>
+    <Footer />
+    </div>
     </>
   );
 }

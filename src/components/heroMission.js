@@ -4,7 +4,7 @@ function heroMission(){
     return(
     <>
     <div className='upper-container'>
-     <br></br><br></br><br></br>
+     <br></br><br></br>
      <p className='mission-head'>Our Mission</p>
      <p className='mission-head-content'>“To revolutionize business and economic growth and broadcast it to the world.”</p>
      <div className='coloumn-container'>
