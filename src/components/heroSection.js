@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from '../assets/imgs/link.png';
-import Image from '../assets/imgs/image-body.png';
+import Image from '../assets/imgs/art.png';
 
 function heroSection(){
     return(
@@ -12,8 +12,8 @@ function heroSection(){
      A workplace of innovative thinkers who share a passion for unlocking the secrets of business growth.
      We want to unlock the true you.
      </p>
-     <br></br><br></br>
-     <button className='btn-apply-now'><img src={Link} alt='error'/></button>
+     <br></br>
+     <button className='btn-apply-now'>Apply Now &nbsp; <img src={Link} alt='error' className='link-icon'/></button>
      <br></br><br></br>
      <br></br><br></br><br></br>
     </div>

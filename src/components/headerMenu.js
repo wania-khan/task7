@@ -1,6 +1,6 @@
 import React from 'react';
 import navlogo from '../assets/imgs/navlogo.png';
-
+import Chevron from '../assets/imgs/chevron.png';
 function headerMenu(){
     return(
     <>
@@ -9,9 +9,11 @@ function headerMenu(){
       <img src={navlogo} alt='erro' className='navlogo'></img>
     </div>
     <div className='navbar-menu'>
-        <span className='menu-bar'>Home&nbsp;&nbsp;&nbsp;&nbsp;Company <span className='gt'>&gt;</span>&nbsp;&nbsp;&nbsp;
-        Platform <span className='gt'>&gt;</span>&nbsp;&nbsp;&nbsp;
-        Resources <span className='gt'>&gt;</span></span>
+        <span className='menu-bar'>Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Company <img src={Chevron} alt='error' className='chevron-icon'/>
+        &nbsp;&nbsp;&nbsp;
+        Platform <img src={Chevron} alt='error' className='chevron-icon'/></span>&nbsp;&nbsp;&nbsp;
+        Resources <img src={Chevron} alt='error' className='chevron-icon'/>
     </div>
     <div className='navbar-signup'>
       <span className='navbar-login'>Login</span>
