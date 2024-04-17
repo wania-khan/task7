@@ -67,6 +67,8 @@
 }
 .hero-section{
   display: flex;
+  max-width: 100%;
+  margin: auto;
 }
 .content{
   padding-top: 100px;
@@ -123,7 +125,7 @@ outline-style: none;
 }
 .img-body{
   margin: 0 auto;
-   width: 600px;
+   width: 620px;
    height: 500px;
 }
 .mission-section {
@@ -465,4 +467,7 @@ padding-left: 10px;
 .imp-footer{
   display: flex;
   justify-content: right;
+}
+@media (max-width: 767px) {
+  
 }
