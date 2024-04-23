@@ -1,4 +1,5 @@
 import React from 'react';
+import './heroSection.css';
 import Link from '../assets/imgs/link.png';
 import Image from '../assets/imgs/art.png';
 

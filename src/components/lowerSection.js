@@ -1,4 +1,5 @@
 import React from "react";
+import './lowerSection.js';
 import Search from '../assets/imgs/search.png';
 import Vector from '../assets/imgs/vector.png';
 

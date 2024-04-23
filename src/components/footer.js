@@ -1,4 +1,5 @@
 import React from "react";
+import './footer.css';
 import GrowthIcon from '../assets/imgs/growthicon.png';
 import LinkedIn from '../assets/imgs/linkedin.png';
 function footer(){

@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../assets/fonts/Poppins-Regular.ttf);
+  }
+  @font-face {
+    font-family: Poppins-Bold;
+    src: url(../assets/fonts/Poppins-SemiBold.ttf);
+  }
+  *{
+    /* outline: solid 1px red; */
+  }
+  .container-header{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(175, 202, 207, 0.5) 100%);
+  }
+  .header-menu {
+    display: flex;
+    align-items: center;
+    max-width: 1184px;
+    margin: auto;
+    justify-content: space-between; 
+  }
+  .menu-bar {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #22252b;
+    cursor: pointer;
+    justify-content: space-between; 
+  
+  }
+  .navlogo{
+    width: 199px;
+    height: 36px;
+  }
+  .navbar-logo,
+  .navbar-menu,
+  .navbar-signup {
+    align-items: center; 
+  }
+  .navbar-signup {
+    justify-content: flex-end; 
+    font-family: 'Poppins-Bold';
+    font-size: 14px;
+    gap: 3px;
+  }
+  .button-createAcc {
+    font-family: 'Poppins-Bold';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    color: #ffffff;
+    padding: 13px 18px; 
+    border-radius: 22px; 
+    border-style: none;
+    outline-style: none;
+    background: #754bc9;
+    cursor: pointer;
+  }
+  .chevron-icon{
+  display: inline-block;
+  width: 9px;
+  height: 5px;
+  vertical-align: middle;
+}

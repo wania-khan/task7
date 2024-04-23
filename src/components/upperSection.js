@@ -1,4 +1,5 @@
 import React from "react";
+import './upperSection.js';
 import Perk from '../components/Perks.js';
 
 function upperSection(){

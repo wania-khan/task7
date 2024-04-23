@@ -1,4 +1,5 @@
 import React from 'react';
+import './sectionedTemplate.css';
 import Check from '../assets/imgs/check.png';
 import User from '../assets/imgs/user.png';
 

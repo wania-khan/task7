@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../assets/fonts/Poppins-Regular.ttf);
+  }
+  @font-face {
+    font-family: Poppins-Bold;
+    src: url(../assets/fonts/Poppins-SemiBold.ttf);
+  }
+.footer-section{
+    background: #434956;
+  }
+  .footer-container{
+    padding-top: 72px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .growth-icon{
+    height: 40px;
+    width: 40px;
+  }
+  .company-header, .platform-header, .resources-header{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+  }
+  .company-content, .platform-content, .resources-content{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+  }
+  .resources-footer, .company-footer, .platform-footer{
+    justify-content: space-around;
+    margin-top: -25px;
+  }
+  .hr-content{
+    margin-right: 90px;
+    color: #FFFFFF;
+    border: 1px solid;
+    width: 1000px;
+    height: 1px;
+    opacity: 0.1px;
+  }
+  .footer-content{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #D4D5D9;
+  }
+  .footer-end{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 170px;
+    scroll: none;
+  }
+  .imp-footer{
+    display: flex;
+    justify-content: right;
+  }

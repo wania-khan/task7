@@ -1,4 +1,5 @@
 import React from 'react';
+import './heroMission.css';
 
 function heroMission(){
     return(

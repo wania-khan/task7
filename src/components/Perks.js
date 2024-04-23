@@ -1,4 +1,5 @@
 import React from 'react';
+import './Perks.css';
 import Laptop from '../assets/imgs/laptop.png';
 import Globe from '../assets/imgs/globe.png';
 import MedicalCircle from '../assets/imgs/medicalcircle.png';

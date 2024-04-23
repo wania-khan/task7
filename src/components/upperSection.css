@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../assets/fonts/Poppins-Regular.ttf);
+  }
+  @font-face {
+    font-family: Poppins-Bold;
+    src: url(../assets/fonts/Poppins-SemiBold.ttf);
+  }
+.upper-section{
+    background: #F3F4F780;
+    /* opacity: 0.5; */
+  }
+  .upper-p1{
+  font-family: 'Poppins-Bold';
+  color: #754BC9;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  }
+  .upper-p2{
+  margin-top: -8px;
+  margin-bottom: -10px;
+  font-family: 'Poppins-Bold';
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 45px;
+  text-align: center;
+  color: #22252B;
+  }
