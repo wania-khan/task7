@@ -2,6 +2,8 @@ import React from 'react';
 import './headerMenu.css';
 import navlogo from '../assets/imgs/navlogo.png';
 import Chevron from '../assets/imgs/chevron.png';
+import GrowthIcon from '../assets/imgs/growthicon.png';
+
 function headerMenu(){
     return(
     <>
@@ -12,7 +14,10 @@ function headerMenu(){
         <span></span>
       </div>
     <div className='navbar-logo'>
-      <img src={navlogo} alt='erro' className='navlogo'></img>
+      <img src={navlogo} alt='error' className='navlogo'></img>
+    </div>
+    <div className='navbar-logo-resp'>
+      <img src={GrowthIcon} alt='error' className='navbar-growth'></img>
     </div>
     <div className='navbar-menu'>
         <span className='menu-bar'>Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

@@ -15,18 +15,40 @@
   background-color: black;
   border-radius: 0.2rem;
 }
+.navbar-growth{
+  width: 199px;
+  height: 36px;
+}
 /* Extra small devices (phones, 840px and down) */
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 840px){
   .container-header{
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(175, 202, 207, 0.5) 50%);
   }
   .navbar-logo{
     align-items: center;
+    padding-left: 12px;
   }
   .menu {
       display: flex;
       margin-top: 30px;
       align-items: center;
+      padding-right: 10px;
+  }
+  .navbar-menu, .navbar-signup{
+    display: none;
+  }
+}
+@media only screen and (max-width: 400px){
+  .container-header{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(175, 202, 207, 0.5) 50%);
+  }
+  .navbar-growth{
+  }
+  .menu {
+      display: flex;
+      margin-top: 30px;
+      align-items: center;
+      padding-right: 10px;
   }
   .navbar-menu, .navbar-signup{
     display: none;

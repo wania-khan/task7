@@ -15,7 +15,7 @@
   .header-menu {
     display: flex;
     align-items: center;
-    max-width: 1184px;
+    max-width: 1295px;
     margin: auto;
     justify-content: space-between; 
   }
@@ -29,6 +29,9 @@
     cursor: pointer;
     justify-content: space-between; 
   
+  }
+  .navbar-logo-resp{
+    display: none;
   }
   .navlogo{
     width: 199px;
