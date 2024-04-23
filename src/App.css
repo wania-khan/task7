@@ -125,7 +125,7 @@ outline-style: none;
 .img-body{
   margin: 0 auto;
    width: 630px;
-   height: 500px;
+   height: 490px;
 }
 .mission-section {
   position: relative; 
@@ -467,6 +467,30 @@ padding-left: 10px;
   display: flex;
   justify-content: right;
 }
+.menu{
+  display: none;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+}
+.menu span{
+  height: 0.4rem;
+  width: 100%;
+  background-color: black;
+  border-radius: 0.2rem;
+}
 @media (max-width: 767px) {
-  
+  .container-header{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(175, 202, 207, 0.5) 50%);
+  }
+
+  .menu {
+      display: flex;
+  }
+
+
 }

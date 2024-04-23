@@ -5,6 +5,11 @@ function headerMenu(){
     return(
     <>
     <div className='header-menu'>
+      <div className='menu'>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     <div className='navbar-logo'>
       <img src={navlogo} alt='erro' className='navlogo'></img>
     </div>
