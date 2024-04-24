@@ -15,7 +15,7 @@ function App() {
     <div className='container-header'>
       <br></br>
     <HeaderMenu />
-    {/* <HeroSection /> */}
+    <HeroSection />
     </div>
     {/* <div className='mission-section'>
      <HeroMission />

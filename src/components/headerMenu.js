@@ -16,9 +16,6 @@ function headerMenu(){
     <div className='navbar-logo'>
       <img src={navlogo} alt='error' className='navlogo'></img>
     </div>
-    <div className='navbar-logo-resp'>
-      <img src={GrowthIcon} alt='error' className='navbar-growth'></img>
-    </div>
     <div className='navbar-menu'>
         <span className='menu-bar'>Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         Company <img src={Chevron} alt='error' className='chevron-icon'/>

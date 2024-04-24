@@ -15,8 +15,10 @@ function heroSection(){
      </p>
      <br></br>
      <button className='btn-apply-now'>Apply Now &nbsp; <img src={Link} alt='error' className='link-icon'/></button>
+     <span className='content-break'>
      <br></br><br></br>
      <br></br><br></br><br></br>
+     </span>
     </div>
     <div className='image'>
     <img className='img-body'alt='error' src={Image} />

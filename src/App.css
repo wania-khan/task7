@@ -15,21 +15,11 @@
   background-color: black;
   border-radius: 0.2rem;
 }
-.navbar-logo-resp{
-  display: none;
-}
-.navbar-growth{
-  width: 199px;
-  height: 36px;
-}
 /* Extra small devices (phones, 840px and down) */
 @media only screen and (max-width: 840px){
   .container-header{
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(175, 202, 207, 0.5) 50%);
-  }
-  .navbar-logo{
-    align-items: center;
-    padding-left: 12px;
+    height: 100vh;
   }
   .menu {
       display: flex;
@@ -40,20 +30,33 @@
   .navbar-menu, .navbar-signup{
     display: none;
   }
+  .hero-section {
+    flex-direction: column; 
+    /* align-items: center;  */
+  }
+  .content-break{
+    display: none;
+  }
+  .image {
+    width: auto; 
+    align-items: center; 
+  }
 }
-@media only screen and (max-width: 400px){
+
+/*  Small devices (1200px and down) */
+@media only screen and (max-width: 1200px){
   .container-header{
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(175, 202, 207, 0.5) 50%);
   }
-  .navbar-growth{
+  .hero-section {
+    flex-direction: column; 
+    align-items: center; 
   }
-  .menu {
-      display: flex;
-      margin-top: 30px;
-      align-items: center;
-      padding-right: 10px;
-  }
-  .navbar-menu, .navbar-signup{
+  .content-break{
     display: none;
+  }
+  .image {
+    width: auto; 
+    align-items: center; 
   }
 }
