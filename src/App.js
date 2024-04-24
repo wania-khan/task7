@@ -17,10 +17,10 @@ function App() {
     <HeaderMenu />
     <HeroSection />
     </div>
-    {/* <div className='mission-section'>
+     <div className='mission-section'>
      <HeroMission />
     </div>
-    <div className='block-section'>
+    {/* <div className='block-section'>
      <SectionedTemplate />
     </div>
     <div className='upper-section'>
@@ -29,7 +29,7 @@ function App() {
     <LowerSection />
     <div className='footer-section'>
     <Footer />
-    </div> */}
+    </div>  */}
     </>
   );
 }

@@ -20,8 +20,8 @@ function headerMenu(){
         <span className='menu-bar'>Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         Company <img src={Chevron} alt='error' className='chevron-icon'/>
         &nbsp;&nbsp;&nbsp;
-        Platform <img src={Chevron} alt='error' className='chevron-icon'/></span>&nbsp;&nbsp;&nbsp;
-        Resources <img src={Chevron} alt='error' className='chevron-icon'/>
+        Platform <img src={Chevron} alt='error' className='chevron-icon'/>&nbsp;&nbsp;&nbsp;
+        Resources <img src={Chevron} alt='error' className='chevron-icon'/></span>
     </div>
     <div className='navbar-signup'>
       <span className='navbar-login'>Login</span>

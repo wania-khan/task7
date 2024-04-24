@@ -15,11 +15,13 @@
   background-color: black;
   border-radius: 0.2rem;
 }
+
 /* Extra small devices (phones, 840px and down) */
 @media only screen and (max-width: 840px){
   .container-header{
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(175, 202, 207, 0.5) 50%);
-    height: 100vh;
+    height: 100%;
+    width: 100%;
   }
   .menu {
       display: flex;
@@ -38,7 +40,7 @@
     display: none;
   }
   .image {
-    width: auto; 
+    width: 100%; 
     align-items: center; 
   }
 }
@@ -47,16 +49,18 @@
 @media only screen and (max-width: 1200px){
   .container-header{
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(175, 202, 207, 0.5) 50%);
+    height: 100%;
+    width: 100%;
   }
   .hero-section {
     flex-direction: column; 
-    align-items: center; 
+    /* align-items: center;  */
   }
   .content-break{
     display: none;
   }
   .image {
-    width: auto; 
+    width: 100%; 
     align-items: center; 
   }
 }
