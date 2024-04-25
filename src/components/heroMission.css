@@ -9,6 +9,8 @@
   .mission-whole{
     padding: 0px 25px 0px 25px; 
     max-width: 1295px;
+    align-items: center;
+    text-align: center;
   }
   .mission-section {
     position: relative; 
@@ -35,7 +37,7 @@
   margin-bottom: -10px;
   }
   .mission-head-content{
-    position: relative; 
+  position: relative; 
   font-family: 'Poppins-Bold';
   font-size: 48px;
   font-style: italic;
@@ -43,21 +45,22 @@
   line-height: 60px;
   text-align: center;
   color: #754BC9;
+  padding: 0px 30px 0px 30px;
   }
   .coloumn-container{
     margin-top: -10px;
     position: relative; 
     max-width:1184px;
-    padding-left: 60px;
-    padding-right: 60px;
+    /* padding-left: 60px;
+    padding-right: 60px; */
     display: flex;
     margin: auto;
     justify-content: space-between;
   }
   .block{
     padding-bottom: 0%;
-    padding-left: 60px;
-    padding-right: 10px;
+    /* padding-left: 60px;
+    padding-right: 10px; */
     width: 568px;
     height: 252px;
     text-align: left;
