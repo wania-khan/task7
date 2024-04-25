@@ -4,6 +4,7 @@ import './heroMission.css';
 function heroMission(){
     return(
     <>
+    <div className='mission-whole'>
     <div className='upper-container'>
      <br></br><br></br>
      <p className='mission-head'>Our Mission</p>
@@ -29,6 +30,7 @@ function heroMission(){
         </div>
       </div>
       <br></br><br></br><br></br><br></br>
+    </div>
     </div>
     </>
     );

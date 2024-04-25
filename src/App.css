@@ -43,10 +43,17 @@
     width: 100%; 
     align-items: center; 
   }
+  
 }
-
+@media (min-width: 841px) {
+  .img-body {
+    margin: 0 auto;
+    width: 620px;
+    height: 470px; 
+  }
+}
 /*  Small devices (1200px and down) */
-@media only screen and (max-width: 1200px){
+/* @media only screen and (max-width: 1200px){
   .container-header{
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(175, 202, 207, 0.5) 50%);
     height: 100%;
@@ -54,7 +61,6 @@
   }
   .hero-section {
     flex-direction: column; 
-    /* align-items: center;  */
   }
   .content-break{
     display: none;
@@ -63,4 +69,4 @@
     width: 100%; 
     align-items: center; 
   }
-}
+} */
