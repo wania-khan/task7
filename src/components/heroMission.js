@@ -29,7 +29,9 @@ function heroMission(){
           </p>
         </div>
       </div>
+      <span className='content-break'>
       <br></br><br></br><br></br><br></br>
+      </span>
     </div>
     </div>
     </>
