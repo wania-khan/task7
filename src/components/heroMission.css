@@ -79,16 +79,16 @@
   
   @media only screen and (max-width: 850px){
     .mission-head{
-      font-size: 24px;
-      line-height: 26px;
-    }
-    .mission-head-content{
-      font-size: 22px;
+      font-size: 30px;
       line-height: 24px;
     }
+    .mission-head-content{
+      font-size: 28px;
+      line-height: 26px;
+    }
     .coloumn-container {
-      /* flex-direction: column; */
-      gap:15px;
+      flex-direction: column;
+      /* gap:15px; */
       max-width: 100%;
     } 
     .block {
@@ -97,7 +97,7 @@
       padding-right: 20px;
     }
     .block-content{
-      font-size: 12px;
-      line-height: 20px;
+      font-size: 18px;
+      line-height: 26px;
     }    
   }
