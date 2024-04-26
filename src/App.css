@@ -47,15 +47,16 @@
 }
 /*  Small devices (1105px and down) */
 /* @media only screen and(max-width:1105px) {
-  /* .coloumn-container {
+  .coloumn-container {
     flex-direction: column;
-  } */
-  /* .block {
+    gap:10px;
+  } 
+  .block {
     width: 100%; 
     padding-left: 20px; 
     padding-right: 20px;
   }
-} */ 
+}  */
 /*  Small devices (1200px and down) */
 @media only screen and (max-width: 1200px){
   .container-header{
@@ -78,4 +79,18 @@
     width: 620px;
     height: 470px;
   }
+  .mission-section{
+    
+  }
+  .coloumn-container {
+    /* flex-direction: column; */
+    gap:15px;
+    max-width: 100%;
+  } 
+  .block {
+    width: fit-content; 
+    padding-left: 20px; 
+    padding-right: 20px;
+  }
+  
 }

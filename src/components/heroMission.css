@@ -11,15 +11,17 @@
     max-width: 1295px;
     align-items: center;
     text-align: center;
+    margin: auto;
   }
   .mission-section {
     position: relative; 
     background-image: url('../assets/imgs/bg-mission.jpeg');
-    background-size: cover;
+    background-size: auto;
   }
   .mission-section::before {
     content: ""; 
     position: absolute;
+    /* float: right; */
     top: 0;
     left: 0;
     width: 100%;
