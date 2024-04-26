@@ -20,9 +20,10 @@ function App() {
      <div className='mission-section'>
      <HeroMission />
     </div>
-    {/* <div className='block-section'>
+    <div className='block-section'>
      <SectionedTemplate />
     </div>
+        {/* 
     <div className='upper-section'>
      <UpperSection />
     </div>

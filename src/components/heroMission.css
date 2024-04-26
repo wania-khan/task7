@@ -78,26 +78,6 @@
   }
   
   @media only screen and (max-width: 850px){
-    .container-header{
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(175, 202, 207, 0.5) 50%);
-      height: 100%;
-      width: 100%;
-    }
-    .hero-section {
-      flex-direction: column; 
-    }
-    .content-break{
-      display: none;
-    }
-    .image {
-      width: 100%; 
-      align-items: center; 
-    }
-    .img-body {
-      margin: 0 auto;
-      width: 620px;
-      height: 470px;
-    }
     .mission-head{
       font-size: 24px;
       line-height: 26px;
