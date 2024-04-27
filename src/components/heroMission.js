@@ -19,12 +19,20 @@ function heroMission(){
        We have to enable our customers with anything and everything they may need to take their
        businesses to the next level, whether it be technology-based or otherwise.  
        </p>
+       <span className='content-break'>
+          <br></br><br></br>
+          </span>
+        </div>
+        <div className='hr'> 
+          <hr></hr>
         </div>
         <div className='block'>
           <p className='block-content'>
           From community building, to industry panels, to global events, we take offline learning and bring them online. 
+          <span className='content-break'>
           <br></br><br></br>
-          Above all, we are committed to putting business growth above all else and are honored to
+          </span>
+         &nbsp; Above all, we are committed to putting business growth above all else and are honored to
          support the hardworking business owners and partners who are driving our economy forward.
           </p>
         </div>
