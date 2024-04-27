@@ -121,14 +121,29 @@
       display: none;
     }
     .block-content{
-      font-size: 24px;
-      line-height: 32px;
+      font-size: 20px;
+      line-height: 30px;
     }
     .coloumn-container{
-      gap:35px;
+      gap:auto;
     }
   }
   @media only screen and (max-width: 680px){
+    /* .hr{
+      display: flex;
+    } */
+    .content-break{
+      display: none;
+    }
+    .block-content{
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .coloumn-container{
+      gap: auto;
+    }
+  }
+  @media only screen and (max-width: 570px){
     .hr{
       display: flex;
     }
@@ -136,10 +151,10 @@
       display: none;
     }
     .block-content{
-      font-size: 20px;
+      font-size: 18px;
       line-height: 28px;
     }
     .coloumn-container{
       gap: auto;
     }
-  }
+  }  
