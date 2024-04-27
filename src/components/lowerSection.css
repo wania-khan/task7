@@ -21,7 +21,8 @@
   }
   .form-items-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: auto;
   }
   .form-items select {
     margin: 14px;
@@ -45,12 +46,14 @@
   }
   .hr{
     display: flex;
-    max-width: 858px;
+    max-width: 1300px;
     border: 1px solid #D4D5D9;
     border: 1px 0px 0px 0px;
   }
   .cont{
-    padding-left: 203px;
+   margin: auto;
+   align-items: center;
+   text-align: center;
   }
   .se-container{
     border-left: 2px solid #754BC9;
@@ -98,4 +101,18 @@
     line-height: 24px;
     text-align: left;
     color: #754BC9;
+  }
+  .lower-section{
+    padding: 0px 105px 0px 105px; 
+    max-width: 900px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+  @media only screen and (max-width:908px){
+    .form-items-container {
+      flex-direction: column;
+      margin: auto;
+      align-items: center;
+    }
   }

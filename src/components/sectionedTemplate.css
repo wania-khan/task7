@@ -75,3 +75,20 @@
     padding-left: 75px;
     padding-right: 85px;
   }
+  /*  Small devices (750px and down) */
+@media only screen and (max-width:750px){
+  .block-container{
+    display: block;
+  }
+  /* .block-section{
+    max-width: 100%;
+  } */
+  .block-1{
+    width: auto;
+    padding: auto;
+  }
+  .block-2{
+    width: auto;
+    padding: auto;
+  }
+}

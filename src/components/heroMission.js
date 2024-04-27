@@ -23,9 +23,6 @@ function heroMission(){
           <br></br><br></br>
           </span>
         </div>
-        <div className='hr'> 
-          <hr></hr>
-        </div>
         <div className='block'>
           <p className='block-content'>
           From community building, to industry panels, to global events, we take offline learning and bring them online. 

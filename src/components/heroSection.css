@@ -78,3 +78,10 @@
     height: 470px;
   }
 }
+@media only screen and (max-width:360px) {
+  .content-header{
+    font-family: 'Poppins-Bold';
+    font-size: 54px;
+    line-height: auto;
+  }
+}

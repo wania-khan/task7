@@ -1,11 +1,12 @@
 import React from "react";
-import './lowerSection.js';
+import './lowerSection.css';
 import Search from '../assets/imgs/search.png';
 import Vector from '../assets/imgs/vector.png';
 
 function lowerSection(){
     return(
     <>
+    <div className="lower-section">
     <br></br><br></br>
     <div className="form-items-container">
     <form className="form-items">
@@ -48,6 +49,7 @@ function lowerSection(){
     </div>
     </div>
     <br></br><br></br><br></br>
+    </div>
     </>    
     );
 }

@@ -6,9 +6,6 @@
     font-family: Poppins-Bold;
     src: url(../assets/fonts/Poppins-SemiBold.ttf);
   }
-  *{
-    /* outline: solid 1px red; */
-  }
   .container-header{
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(175, 202, 207, 0.5) 100%);
   }

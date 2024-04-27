@@ -45,18 +45,6 @@
   }
   
 }
-/*  Small devices (1105px and down) */
-/* @media only screen and(max-width:1105px) {
-  .coloumn-container {
-    flex-direction: column;
-    gap:10px;
-  } 
-  .block {
-    width: 100%; 
-    padding-left: 20px; 
-    padding-right: 20px;
-  }
-}  */
 /*  Small devices (1200px and down) */
 @media only screen and (max-width: 1200px){
   .container-header{

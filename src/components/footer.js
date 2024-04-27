@@ -5,6 +5,7 @@ import LinkedIn from '../assets/imgs/linkedin.png';
 function footer(){
     return(
     <>
+    <div className="footer-block">
     <div className="footer-container">
     <div className="growth-footer">
     <img className="growth-icon" src={GrowthIcon} alt="error" />
@@ -56,6 +57,7 @@ function footer(){
     </div>
     </div>
     <br></br><br></br>
+    </div>
     </>
     );
 }
