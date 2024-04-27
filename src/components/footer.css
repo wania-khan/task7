@@ -98,8 +98,11 @@
       margin: auto;
       padding: auto;
     } */
+    .icon-footer{
+      justify-content: left;
+    }
     .imp-footer{
-      display: block;
+      flex-wrap: wrap;
     }
     .content-sp{
       display: none;
