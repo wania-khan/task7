@@ -120,7 +120,26 @@
     .content-break{
       display: none;
     }
+    .block-content{
+      font-size: 24px;
+      line-height: 32px;
+    }
     .coloumn-container{
       gap:35px;
+    }
+  }
+  @media only screen and (max-width: 680px){
+    .hr{
+      display: flex;
+    }
+    .content-break{
+      display: none;
+    }
+    .block-content{
+      font-size: 20px;
+      line-height: 28px;
+    }
+    .coloumn-container{
+      gap: auto;
     }
   }
