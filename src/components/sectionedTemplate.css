@@ -14,7 +14,7 @@
   .block-1{
     width: 40%;
     background: #754BC9;
-    padding-left: 122px;
+    padding-left: 75px;
     padding-top: 50px; 
     padding-bottom: 30px;
   }
@@ -26,6 +26,9 @@
     text-align: left;
     color: #ffffff;
   }
+  .block-cont{
+    padding-right: 75px;
+  }
   .block-p2{
   font-family: 'Poppins';
   font-size: 16px;
@@ -35,7 +38,6 @@
   color: #ffffff;
   display: flex; 
   align-items: center; 
-  padding-right: 110px;
   }
   .check {
     height: auto; 
@@ -73,22 +75,30 @@
   }
   .content-block{
     padding-left: 75px;
-    padding-right: 85px;
+    padding-right: 110px;
   }
   /*  Small devices (750px and down) */
 @media only screen and (max-width:750px){
   .block-container{
     display: block;
   }
-  /* .block-section{
-    max-width: 100%;
-  } */
-  .block-1{
+  .block-1, .block-2{
     width: auto;
+    /* padding-left: auto; */
+    padding: auto;
+    align-items: left;
+  }
+  .block-p1, .block-p2{
+    text-align: left;
+  }
+  /* .block-2{
+    width: auto;
+    padding: auto;
+  } */
+  .content-block{
     padding: auto;
   }
-  .block-2{
-    width: auto;
-    padding: auto;
+  .content-p1{
+    font-size: 28px;
   }
 }

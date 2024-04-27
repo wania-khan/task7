@@ -9,6 +9,7 @@ function sectionedTemplate(){
     <div className='block-container'>
     <div className='block-1'>
      <p className='block-p1'>Traits of A players</p>
+     <div className='block-cont'>
      <p className='block-p2'><img src={Check} alt='error' className='check'/>&nbsp;&nbsp;
      <span>You have an unmatched work ethic.</span>
      </p>
@@ -21,6 +22,7 @@ function sectionedTemplate(){
      <p className='block-p2'><img src={Check} alt='error' className='check'/>&nbsp;&nbsp;
     <span>You have a burning desire to help change the world.</span>
      </p>
+     </div>
     </div>
     <div className='block-2'>
     <p><img className='img-p1' src={User} alt='error'/></p>
