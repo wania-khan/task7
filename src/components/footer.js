@@ -10,6 +10,7 @@ function footer(){
     <div className="growth-footer">
     <img className="growth-icon" src={GrowthIcon} alt="error" />
     </div>
+    <div className="secondary-container">
      <div className="company-footer">
         <p className="company-header">Company</p>
         <p className="company-content">Careers</p>
@@ -32,6 +33,7 @@ function footer(){
         <p className="resources-content">Blog</p>
         <p className="resources-content">Book a Demo</p>
         <p className="resources-content">Contact Us</p>
+     </div>
      </div>
     </div>
     <br></br>

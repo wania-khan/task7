@@ -22,10 +22,20 @@
     color: #FFFFFF;
     display: flex;
     justify-content: space-around;
+    align-items: center;
   }
-  .growth-icon{
+  .growth-footer {
+    order: 0;
+    justify-content: center; 
+    display: flex; 
+    align-items: flex-start; 
+  }
+  
+  .growth-icon {
     height: 40px;
     width: 40px;
+    margin-right: auto;
+    margin-left: auto; 
   }
   .company-header, .platform-header, .resources-header{
     font-family: 'Poppins';
@@ -43,6 +53,13 @@
   }
   .resources-footer, .company-footer, .platform-footer{
     justify-content: space-around;
+    padding: 50px;
+  }
+  .secondary-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    max-width: 100%;
   }
   .hr-content{
     /* margin-right: 90px; */
@@ -73,6 +90,7 @@
     display: flex;
     justify-content: space-evenly;
   }
+
   @media only screen and (max-width:1160px) {
     .footer-container, .footer-end{
       margin: auto;
@@ -84,28 +102,35 @@
   }
 
   @media only screen and (max-width:660px) {
-    .footer-container{
-      display: flex;
-      flex-wrap: wrap;
-      margin: auto;
-      padding: auto;
-      gap: 10px;
-      justify-content: center; 
-      text-align: center;
+
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
     }
-    .growth-footer,
+  
+    .growth-footer {
+      order: 0;
+      justify-content: center;
+    }
+  
     .company-footer,
     .platform-footer,
     .resources-footer {
-      flex: 1 0 calc(50% - 15px); 
+      width: 100%;
+      order: 2;
+      padding: 10px; 
     }
-    .icon-footer{
-      justify-content: left;
+  
+    .footer-end {
+      flex-direction: column;
+      align-items: center;
     }
-    .imp-footer{
-      flex-wrap: wrap;
+  
+    .icon-footer {
+      order: 0;
     }
-    .content-sp{
-      display: none;
+  
+    .imp-footer {
+      order: 1;
     }
   }
