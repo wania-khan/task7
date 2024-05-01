@@ -6,9 +6,6 @@
   font-family: Poppins-Bold;
   src: url(../assets/fonts/Poppins-SemiBold.ttf);
 }
-* {
-  /* outline: solid 1px red; */
-}
 .footer-section {
   background: #434956;
   max-width: 100%;

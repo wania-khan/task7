@@ -7,8 +7,10 @@ function heroMission(){
     <div className='mission-whole'>
     <div className='upper-container'>
      <br></br><br></br>
+     <div className='mission-h'>
      <p className='mission-head'>Our Mission</p>
      <p className='mission-head-content'>“To revolutionize business and economic growth and broadcast it to the world.”</p>
+     </div>
      <div className='coloumn-container'>
         <div className='block'>
        <p className='block-content'>
@@ -29,7 +31,7 @@ function heroMission(){
           <span className='content-break'>
           <br></br><br></br>
           </span>
-         &nbsp; Above all, we are committed to putting business growth above all else and are honored to
+         Above all, we are committed to putting business growth above all else and are honored to
          support the hardworking business owners and partners who are driving our economy forward.
           </p>
         </div>
