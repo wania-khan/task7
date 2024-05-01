@@ -33,6 +33,7 @@
   .mission-h{
     padding-left: 85px;
     padding-right: 85px;
+    margin-bottom: -35px;
   }
   .mission-head{
   position: relative; 
@@ -65,7 +66,7 @@
   }
   .block{
     padding-bottom: 0%;
-    width: 568px;
+    width: 560px;
     height: 252px;
     text-align: left;
     font-family: 'Poppins';
