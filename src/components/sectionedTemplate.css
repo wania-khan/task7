@@ -105,16 +105,18 @@
     font-size: 28px;
   }
 }
-@media only screen and (min-width:1800px) {
-  .block-cont{
-   justify-content: right;
-   padding-left: 750px;
+@media only screen and (min-width:1795px) {
+  .block-container{
+    max-width: 100%;
   }
-  .block-p1{
-    padding-left: 760px;
+  .block-1, .block-2{
+    width: 50%;
+  }
+  .block-1{
+    display: grid;
+    justify-content: flex-end;
   }
   .content-block{
-    justify-content: left;
-    padding-right: 1050px;
-  }
+    padding-right: 55%;
+  } 
 }
