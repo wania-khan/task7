@@ -22,7 +22,7 @@
   color: #ffffff;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: stretch;
 }
 
 @media (max-width: 901px) {
@@ -35,7 +35,7 @@
   order: 0;
   justify-content: center;
   display: flex;
-  align-items: flex-start;
+  padding-top: 70px;
 }
 
 .growth-icon {
