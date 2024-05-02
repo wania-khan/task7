@@ -10,9 +10,8 @@
     outline: solid 1px red;
   } */
   .container-header {
-    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(175, 202, 207, 0.2) 50%), url('../assets/imgs/herobg.webp');
-    height: 100%;
-    width: 100%;
+    background-image: url('../assets/imgs/herobg.webp');
+    min-height: 100vh;
     background-size: cover;
   }
 .hero-section{
